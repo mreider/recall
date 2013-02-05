@@ -1,0 +1,9 @@
+---
+applications:
+- name: recall
+  framework: sinatra
+  runtime: ruby19
+  memory: 128M
+  instances: 1
+  url: recall-${random-word}.${target-base}
+  path: .
